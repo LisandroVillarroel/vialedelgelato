@@ -58,3 +58,17 @@
     padding-left: 5%;
   }
   /*Fin Footer*/
+
+ .tamano1{
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+ }
+
+ .tamano2{
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+ }
+
+ .modal-content {
+  background-color: #9a1c1cc7;
+ }
