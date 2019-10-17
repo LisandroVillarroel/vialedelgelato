@@ -151,7 +151,7 @@ $mensaje .= "Su e-mail es: " . $email . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'contacto@vialedelgelato.cl';
+$para = 'lisandrovillarroell@gmail.com';//'contacto@vialedelgelato.cl';
 $asunto = 'Formulario contacto Viale del Gelato';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
